@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
-* main - Entry point
+* main - A program that gives standard error as output
 *
-* Return: Always 1 (Success)
+* Return: the goal is to have 1 as output
 */
 
 int main(void)
