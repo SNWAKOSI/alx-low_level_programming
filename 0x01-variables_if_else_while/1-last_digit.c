@@ -4,7 +4,7 @@
 
 /**
  * main - Assigning random number to variable n
- * 
+ *
  * Return: code must give out 0.
  */
 
