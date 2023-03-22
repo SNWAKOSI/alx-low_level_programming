@@ -1,29 +1,26 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_sign - function that prints 1
- *
- * @n: function pre-requisite
- *
- * Return: must return 1, 0 and -a
+ * print_sign - to print the sign of a number
+ * @n: paparemter to check
+ * Return: 1 and prints + if n greater than zero
+ * 0 and prints 0 if n is zero
+ * -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf('+');
+		_putchar('+');
 		return (1);
-	}
-	else if (n == 0)
-	{
-		printf('0');
+	} else if (n == 0)
+}
+		_putchar(48);
 		return (0);
-	}
-	else
+	} else if (n < 0)
 	{
-		printf('-');
-		return (-1);
+		_putchar('-');
 	}
+		return (-1);
 }
