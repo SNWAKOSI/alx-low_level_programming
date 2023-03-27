@@ -7,7 +7,6 @@
  *
  * Return: no return statement as function prints output to stdout.
  */
-
 void print_rev(char *s)
 {
 	int longi = 0;
